@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Path-Finder/static/css/main.49a8c065.css",
+    "main.js": "/Path-Finder/static/js/main.fb1b929a.js",
+    "static/js/787.a9120f67.chunk.js": "/Path-Finder/static/js/787.a9120f67.chunk.js",
+    "static/media/slack.svg": "/Path-Finder/static/media/slack.ba47bf3bced42a9a65ac9a1e03bd5fe9.svg",
+    "index.html": "/Path-Finder/index.html",
+    "static/media/key.svg": "/Path-Finder/static/media/key.c84f399eb45913172488b63da5ef4dc5.svg",
+    "static/media/anchor.svg": "/Path-Finder/static/media/anchor.7af672693c22d4ab02902065f7cf403f.svg",
+    "static/media/rotate-ccw.svg": "/Path-Finder/static/media/rotate-ccw.4888cf3bdf1664560318c6caf43d01ba.svg",
+    "static/media/end.svg": "/Path-Finder/static/media/end.e09b126a58677b63cdc9f604ad9bc994.svg",
+    "static/media/start.svg": "/Path-Finder/static/media/start.a2fea1cc548055d87fea575a05f8ba7e.svg",
+    "main.49a8c065.css.map": "/Path-Finder/static/css/main.49a8c065.css.map",
+    "main.fb1b929a.js.map": "/Path-Finder/static/js/main.fb1b929a.js.map",
+    "787.a9120f67.chunk.js.map": "/Path-Finder/static/js/787.a9120f67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49a8c065.css",
+    "static/js/main.fb1b929a.js"
+  ]
+}
