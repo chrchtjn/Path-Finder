@@ -1,7 +1,7 @@
 import { useState , useEffect} from 'react'
-import './CSS/cell.css'
-import {ReactComponent as Start} from './Icons/start.svg'
-import {ReactComponent as End} from './Icons/end.svg'
+import '../CSS/cell.css'
+import {ReactComponent as Start} from '../Icons/start.svg'
+import {ReactComponent as End} from '../Icons/end.svg'
 
 export default function Cell(props){
 

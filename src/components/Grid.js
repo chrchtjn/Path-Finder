@@ -1,8 +1,8 @@
-import "./CSS/grid.css";
+import "../CSS/grid.css";
 import Cell from "./Cell.js";
 import { useState, useEffect } from "react";
 
-import Bfs from './Algorithms/bfs.js'
+import Bfs from '../Algorithms/bfs.js'
 
 export default function Grid(props) {
   var visited = new Set();

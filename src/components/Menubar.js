@@ -1,9 +1,9 @@
-import './CSS/menubar.css';
-import {ReactComponent as Clean} from './Icons/dust.svg'
-import {ReactComponent as Anchor} from './Icons/anchor.svg'
-import {ReactComponent as Key} from './Icons/key.svg'
-import {ReactComponent as Reset} from './Icons/rotate-ccw.svg'
-import {ReactComponent as Cp} from './Icons/slack.svg'
+import '../CSS/menubar.css';
+import {ReactComponent as Clean} from '../Icons/anchor.svg'
+import {ReactComponent as Anchor} from '../Icons/anchor.svg'
+import {ReactComponent as Key} from '../Icons/key.svg'
+import {ReactComponent as Reset} from '../Icons/rotate-ccw.svg'
+import {ReactComponent as Cp} from '../Icons/slack.svg'
 
 
 export default function menubar(props){

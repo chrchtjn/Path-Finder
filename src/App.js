@@ -1,8 +1,8 @@
 import React from "react"
 import "./App.css"
-import Navbar from './Navbar.js';
-import Menubar from './Menubar.js'
-import Grid from './Grid.js'
+import Navbar from './components/Navbar.js';
+import Menubar from './components/Menubar.js'
+import Grid from './components/Grid.js'
 // import Cell from './Cell.js'
 import { useState } from "react"
 
