@@ -1,0 +1,45 @@
+.cell{
+
+    width: 28px;
+    height: 28px;
+    border: solid #625fb3 1px;    
+    background-color: white;
+    border-radius:0;
+    transition:0.2s;
+
+}
+
+.cell:hover{
+
+    border-color: magenta;
+    color: aqua;
+}
+
+.path{
+
+    width: 28px;
+    height: 28px;
+    border: solid yellow 1px;    
+    background-color: yellow;
+    border-radius:0;
+}
+
+.wall{
+    width: 28px;
+    height: 28px;
+    border: solid #19184b 1px;    
+    background-color: #19184b;
+    border-radius:0;
+}
+
+.visited{
+    width: 28px;
+    height: 28px;
+    border: solid #625fb3 1px;    
+    background-color: rgb(43, 61, 255);
+    border-radius:0;
+
+
+}
+
+

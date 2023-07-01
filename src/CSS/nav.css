@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+  }
+
+  .body{
+    margin: 0;
+  }
+
+  .title{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 60px;
+
+  }
+
+  .nav{
+      background-color: #19184b;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: 0 2rem;
+      /* margin-top: 100px; */
+  }
+
+  #fro{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 60px;
+    align-items: center;
+    color: #19184b;
+  }
+
+
+  .nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .nav a{
+    color: inherit;
+    font-size: 20px;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+
+  nav ul li a{
+    font-family: 'Courier New', Courier, monospace;
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    
+} 
+  
+
+  nav ul li a:hover{
+    color: white;
+} 
+
+  nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    transition: 0.5s;
+    
+}
+
+nav ul li a:hover::after{
+  width: 100%;
+  left: 0px;
+  background: red;
+}
+
+
+@keyframes hov-spin {
+  0% {
+    color: #19184b;
+  
+  }
+  15% {
+    color: red;
+  }
+  85%{
+    color: red;
+  }
+  /* 35%{
+    color: #19184b;
+  } */
+  100%{
+    color: #19184b;
+  }
+}
+
+@keyframes slidein {
+  0%{
+    margin-left: -300px;
+  }
+  
+  100%{
+    margin-left: -11px;
+  }
+}
+
+.hov{
+  position:static;
+  color: red;
+  font-size: 70px;
+  margin-left: -11px;
+  margin-bottom: 100px;
+  animation: hov-spin 1.2s infinite, slidein 1.2s;
+  animation-timing-function:linear;
+
+}
+
+@keyframes enter {
+  0%{
+    color: #19184b;
+    visibility: hidden;
+    
+  }
+  50%{
+    color:red;
+  }
+  100%{
+    color: white;
+    visibility: visible;
+  }
+}
+.over1{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.over2{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: .1s;
+  animation-fill-mode: forwards;
+}
+
+.over3{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+}
+
+.over4{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: .3s;
+  animation-fill-mode: forwards;
+}
+
+.over5{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: .4s;
+  animation-fill-mode: forwards;
+}
+
+.over6{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+}
+
+.over7{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: .6s;
+  animation-fill-mode: forwards;
+}
+
+.over8{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: .7s;
+  animation-fill-mode: forwards;
+}
+
+.over9{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: .8s;
+  animation-fill-mode: forwards;
+}
+
+.over10{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: .9s;
+  animation-fill-mode: forwards;
+}
+
+.over11{
+  animation-name: enter;
+  animation-duration: .1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+
